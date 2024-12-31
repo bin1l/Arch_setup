@@ -40,6 +40,10 @@ theme=Nocturnal Winter
 title = " "
 mouse-hide-while-typing
 ```
+## Setup Mozilla
+* use the Autumn Twining by if_tea
+* disable firefox studies and personalized ads
+* install ublock origin and bitwarden
 
 
 
