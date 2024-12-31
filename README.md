@@ -10,7 +10,7 @@ duh...obviously installing the arch is the fist step. Take care to
 * enable `zram compression` to reduce overhead on I/O (specially good for usb boot)
 
 # Theming
-Change the `fekking wallpaper` first of all dude....!!(find good ones in Wall)
+Change the `fekking wallpaper` first of all dude....!!(find good ones in [Wallpapers](https://github.com/bin1l/Arch_setup/tree/main/Pictures/Wallpapers)
 
 yeah....now peace..find and use the given styles
 * Colors:`Breeze Dark`
@@ -21,7 +21,7 @@ yeah....now peace..find and use the given styles
 * Cursors:`Tela Circle`
 
 # Packages
-Install the packages using the file `pkglist.txt`
+Install the packages using the file [pkglist.txt](https://github.com/bin1l/Arch_setup/blob/main/pkglist.txt)
 ``` bash
 sudo pacman -S --needed - < pkglist.txt
 ```
