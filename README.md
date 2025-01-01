@@ -21,7 +21,7 @@ yeah....now peace..find and use the given styles
 * Cursors:`Tela Circle`
 
 # Packages
-Install the packages using the file [pkglist.txt](https://github.com/bin1l/Arch_setup/blob/main/pkglist.txt)
+Install the packages using the file [pkglist.txt](https://github.com/bin1l/Arch_setup/blob/main/Packages/pkglist.txt)
 ``` bash
 sudo pacman -S --needed - < pkglist.txt
 ```
