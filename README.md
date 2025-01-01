@@ -57,7 +57,7 @@ set up starship config
 #create starship config file
 mkdir -p ~/.config && touch ~/.config/starship.toml
 ```
-download the Gruvbox Rainbow Preset toml-file
+download the Gruvbox Rainbow Preset [toml-file](gruvbox-rainbow.toml)
 ## Setup Mozilla
 * use the Autumn Twining by if_tea
 * disable firefox studies and personalized ads
