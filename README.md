@@ -27,7 +27,7 @@ sudo pacman -S --needed - < pkglist.txt
 ```
 additionally to create the pkglist.txt file use the following command
 ```bash
-sudo pacman -Qq > pkglist.txt
+sudo pacman -Qqe > pkglist.txt
 ```
 # Terminal 
 ## Set up ghostty
