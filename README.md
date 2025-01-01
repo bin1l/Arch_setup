@@ -29,22 +29,37 @@ additionally to create the pkglist.txt file use the following command
 ```bash
 sudo pacman -Qq > pkglist.txt
 ```
-
+# Terminal 
 ## Set up ghostty
 Edit the ghostty config file
 ```bash
 #open the config file
-
 nano ~/.config/ghostty/config
 ```
-
 add the following instructions
 ```bash
-
 theme=Nocturnal Winter
 title = " "
 mouse-hide-while-typing
 ```
+## Set up starship
+add the following to shell config
+```bash
+#if shell is bash use this
+eval "$(starship init bash)"
+```
+```zsh
+#if shell is zsh use this
+eval "$(starship init zsh)"
+```
+set up starship config
+``` bash
+#create starship config file
+mkdir -p ~/.config && touch ~/.config/starship.toml
+#add theme to the file
+
+```
+
 ## Setup Mozilla
 * use the Autumn Twining by if_tea
 * disable firefox studies and personalized ads
