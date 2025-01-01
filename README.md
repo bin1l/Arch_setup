@@ -25,6 +25,11 @@ Install the packages using the file [pkglist.txt](https://github.com/bin1l/Arch_
 ``` bash
 sudo pacman -S --needed - < pkglist.txt
 ```
+additionally to create the pkglist.txt file use the following command
+```bash
+sudo pacman -Qq > pkglist.txt
+```
+
 ## Set up ghostty
 Edit the ghostty config file
 ```bash
